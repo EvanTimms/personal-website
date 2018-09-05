@@ -31,3 +31,8 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+window.onload = function() {
+  // similar behavior as an HTTP redirect
+  window.location.replace("http://EvanTimms.github.io");
+}
